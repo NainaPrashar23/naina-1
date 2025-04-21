@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import User from './User.js';
+import Home from './components/Home.js';
+import HomeContainer from './container/HomeContainer.js'
 
 function App() {
   return (
     <div className="App">
-      {/* <h1>App Component</h1> */}
-      <User name = "radha" age = {21}/>
+      <HomeContainer/>
     </div>
   );
 }
